@@ -1,0 +1,17 @@
+prefix: '&b&lMONAYSMP &8» &r'
+settings:
+  default-home-limit: 3
+  rtp:
+    world: world
+    min-radius: 500
+    max-radius: 5000
+    attempts: 24
+    cooldown-seconds: 60
+  messages:
+    no-permission: '&cYou do not have permission.'
+    player-only: '&cThis command can only be used in-game.'
+    no-economy: '&cEconomy is unavailable. Install and configure Vault with an economy provider.'
+    invalid-player: '&cThat player is not online.'
+    invalid-amount: '&cEnter a valid positive amount.'
+    insufficient-funds: '&cYou do not have enough money.'
+    reload: '&aMonaySMP Core configuration reloaded.'
