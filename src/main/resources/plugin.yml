@@ -1,0 +1,51 @@
+name: MonaySMPCore
+version: '${version}'
+main: com.monaysmp.core.MonaySMPCore
+api-version: '26.2'
+folia-supported: false
+author: MonaySMP
+website: https://github.com/jrt94660-cyber/MonaySMPCore
+softdepend: [Vault, PlaceholderAPI, LuckPerms, floodgate]
+commands:
+  monaysmp:
+    description: MonaySMP Core administration and status
+    usage: /monaysmp [reload|info]
+    aliases: [msmp, mcore]
+  spawn:
+    description: Teleport to the configured server spawn
+  setspawn:
+    description: Set the server spawn location
+    permission: monaysmp.admin
+  home:
+    description: Teleport to one of your homes
+    usage: /home <name>
+  homes:
+    description: List your saved homes
+  sethome:
+    description: Save a home at your current location
+    usage: /sethome <name>
+  delhome:
+    description: Delete one of your homes
+    usage: /delhome <name>
+  pay:
+    description: Pay another online player using Vault economy
+    usage: /pay <player> <amount>
+  balance:
+    description: Check your economy balance
+    aliases: [bal, money]
+  rtp:
+    description: Random teleport in the configured world
+  afk:
+    description: Toggle AFK status
+  msg:
+    description: Send a private message
+    aliases: [tell, w, whisper]
+  ignore:
+    description: Ignore or unignore a player
+permissions:
+  monaysmp.admin:
+    description: Access MonaySMP Core administration commands
+    default: op
+  monaysmp.homes.unlimited:
+    description: Bypass the configured home limit
+    default: op
