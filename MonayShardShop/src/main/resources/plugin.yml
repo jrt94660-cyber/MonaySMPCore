@@ -1,0 +1,14 @@
+name: MonayShardShop
+version: 1.0.0
+main: com.tahosmp.shardshop.MonayShardShop
+api-version: '26.2'
+author: TahoSMP
+description: GUI shop paid with the server's existing physical shard item.
+commands:
+  shardshop:
+    description: Opens and manages the physical shard shop.
+    usage: /shardshop [add <price>|currency|remove <slot>|reload]
+permissions:
+  monayshardshop.admin:
+    description: Manage the shard shop and its currency item.
+    default: op
