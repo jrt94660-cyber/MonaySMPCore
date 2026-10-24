@@ -1,0 +1,5 @@
+# Hold the exact shard item you already use and run /shardshop currency.
+# Supports renamed amethyst shards and custom items with item metadata.
+currency-item: null
+shop-title: '&8ShardShop'
+items: {}
